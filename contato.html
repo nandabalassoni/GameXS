@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css"/>
+        <link type="text/css" rel="stylesheet" href="css/mystyle.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="" data-href="css/ac.css" id="altoContraste">
+        <title>GAMEXS</title>
+    </head>
+
+    <body>
+        
+		<header>
+			<nav class="nav-acessibilidade green darken-4">
+                <ul>
+                    <li><a href="#conteudo">1 Ir para conteúdo</a></li>
+                    <li><a href="#menu">2 Ir para menu</a></li>
+				</ul>
+                <ul class="right">
+                    <li><a href="mapasite.html">Mapa do site</a></li>
+                    <li><a id="alto-contraste" href="#">Alto contraste</a></li>
+                </ul>
+			</nav>
+			<nav id="menu">
+				<div class="nav-wrapper green">
+                    <a href="index.html" class="brand-logo">
+                        <img src="img/icone_white.png" alt="Logo com pessoas formando a letra X">
+                        <h1><b>GAME XS</b></h1>
+                    </a>
+					<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="contato.html">CONTATO</a></li>
+						<li><a href="xs.html">DÊ ACESSO</a></li>
+					</ul>
+					<ul class="side-nav" id="mobile-nav">
+						<li><a href="contato.html">CONTATO</a></li>
+						<li><a href="xs.html">Dê ACESSO</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+        <main>
+            <form class="">
+                <div class="container">
+                    <h2 class="center"><b>Entre em contato conosco!</b></h2>
+
+                    <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                            <input id="nome" name="nome" type="text">
+                            <label for="first_name">Nome</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                            <input id="email" type="email" name="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field inline col s6 offset-s3">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Escreva sua mensagem</label>
+                        </div>
+                    </div>
+
+                    <div class="center">
+                        <button type="submit" value="Submit" class="btn white-text green ">
+                            Mandar mensagem
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer class="page-footer green">
+            <div class="footer-copyright green darken-4">
+                <div class="container">
+                    © 2017 alguns direitos reservados Game XS
+                </div>
+            </div>
+        </footer>
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/init.js"></script> <!-- init functions --> 
+    </body>
+</html>
